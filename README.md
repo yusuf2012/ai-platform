@@ -55,7 +55,7 @@ uvicorn main:app --reload
 
 ### 6. Open the app
 Open `frontend/index.html` in your browser, or visit:
-- App: http://localhost:8000
+- App: https://ai-platform-neci.onrender.com
 - API docs: http://localhost:8000/docs
 
 ## API Endpoints
