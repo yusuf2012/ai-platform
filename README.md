@@ -1,6 +1,6 @@
 # AI Platform
 
-A full-stack web application with user authentication and three AI-powered tools built with FastAPI and Claude AI.
+A full-stack web application with user authentication and three AI-powered tools built with FastAPI and Gemini AI.
 
 ## Features
 
@@ -15,7 +15,7 @@ A full-stack web application with user authentication and three AI-powered tools
 |---|---|
 | Backend | FastAPI, SQLAlchemy, SQLite |
 | Auth | JWT tokens, bcrypt password hashing |
-| AI | Anthropic Claude API |
+| AI | Google Gemini API |
 | Frontend | Vanilla HTML/CSS/JS (no framework needed) |
 
 ## Setup
@@ -41,11 +41,11 @@ pip install -r requirements.txt
 ### 4. Add your API key
 Edit `backend/.env`:
 ```
-ANTHROPIC_API_KEY=your_key_here
+GEMINI_API_KEY=your_key_here
 SECRET_KEY=any-long-random-string
 ```
 
-Get a free Claude API key at: https://console.anthropic.com
+Get a free Gemini API key at: https://aistudio.google.com
 
 ### 5. Run the server
 ```bash
